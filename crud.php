@@ -2,6 +2,7 @@
 require_once 'connection.php';
 abstract class Crud extends Connection
 {
+  
   private $table;
   private $pdo;
 
