@@ -2,10 +2,10 @@
 class Connection
 {
     private $driver='mysql';
-    private $host='db4free.net';
-    private $user='ackseriam';
-    private $pass='-Ackseriam21';
-    private $dbName='ackseriam';
+    private $host='localhost';
+    private $user='root';
+    private $pass='erickacondios';
+    private $dbName='project';
     private $charset='utf8';
 
     protected function connec()
